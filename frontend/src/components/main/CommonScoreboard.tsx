@@ -86,7 +86,6 @@ export default function CommonScoreboard({ curUser, categories}: CommonScoreboar
 
         setDownloaded(true)
         setTopUsersCategories(top)
-        console.log(isDownloaded)
     }
 
     useEffect(() => {

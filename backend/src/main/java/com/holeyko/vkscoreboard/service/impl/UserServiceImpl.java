@@ -86,7 +86,7 @@ public class UserServiceImpl implements UserService {
                 .map(roles -> roles.stream().map(
                         role -> roleRepository.findByName(role.getName())
                                 .orElseGet(() -> roleRepository.save(role))
-                ).collect(Collectors.toUnmodifiableSet())).orElse(null);
+                ).collect(Collectors.toSet())).orElse(null);
         user.setRoles(userRoles);
 
         return userRepository.save(user);
