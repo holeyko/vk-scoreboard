@@ -1,0 +1,8 @@
+div.auth {
+    margin: 0 30%;
+    display: flex;
+}
+
+.error {
+    color: red;
+}

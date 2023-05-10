@@ -1,0 +1,10 @@
+package com.holeyko.vkscoreboard.exception;
+
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException() {
+    }
+
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}

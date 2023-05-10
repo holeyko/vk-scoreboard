@@ -1,0 +1,7 @@
+div.categories_top {
+    display: flex;
+}
+
+div.categories_top * {
+    text-align: center;
+}

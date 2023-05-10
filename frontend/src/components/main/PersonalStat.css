@@ -1,0 +1,7 @@
+.personal_stat {
+    display: flex;
+}
+
+.personal_stat * {
+    margin-left: 20px;
+}
